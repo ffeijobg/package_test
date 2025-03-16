@@ -1,0 +1,17 @@
+{
+  "name": "package_test",
+  "version": "1.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": "https://github.com/ffeijobg/package_test.git",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "author": "fernando feijo",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

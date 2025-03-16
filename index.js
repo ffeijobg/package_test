@@ -1,13 +1,14 @@
 const canadaCode = "CA";
-const usaCOde = "US";
+const usaCode = "US";
 
 function getURLByLocation(location){
 	switch (location.toLowerCase()){
-		case canadaCode.toLowerCase();
+		case canadaCode.toLowerCase():
 		  return '/canada/home';
-		case usaCode.toLowerCase();
+		case usaCode.toLowerCase():
 		  return '/home';
 	}
 	return '';
 }
 
+module.exports = getURLByLocation;
